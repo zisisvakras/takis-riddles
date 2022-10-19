@@ -36,12 +36,12 @@ sequence = str(input("Input the pyramid sequence from top to bottom and left to 
 paths = ["0" * (height - 1)]
 paths_value = {}
 # Adding the rest of the paths
-for j in range(1, 2 ** (height - 1), 1):
+for j in range(1, 2**(height-1), 1):
     paths.append(binary(j, height))
 
 # Going through every path where:
 # 0 means going left and 1 means going right
-for i in range(len(paths) - 1):
+for i in range(len(paths)-1):
     paths_value[paths[i]] = 0
     row = 0
     column = 1
