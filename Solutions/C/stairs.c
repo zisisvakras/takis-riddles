@@ -8,7 +8,7 @@ int b = 1;
 int main() {
 
     /* Getting data */ 
-    printf("Enter the number of stairs: ");
+    printf("\nEnter the number of stairs: ");
     scanf("%d", &stairs);
 
     /* Calculating N + 2 number of the fibonacci sequence */
@@ -19,6 +19,6 @@ int main() {
     }
 
     /* Printing the result */
-    printf("Answer: %d ways", b);
+    printf("\nAnswer: %d ways", b);
     return 0;
 }

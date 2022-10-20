@@ -27,7 +27,7 @@ def calculate(row, column, sequence):
 
 
 # Getting data
-height = int(input("What is the height of the pyramid: "))
+height = int(input("\nWhat is the height of the pyramid: "))
 sequence = str(input("Input the pyramid sequence from top to bottom and left to right, seperated with dots: ")).split(".")
 
 # List of every path in binary representation

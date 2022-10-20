@@ -16,14 +16,14 @@ int col = 0;
 int main() {
 
     /* Getting height */
-    printf("What is the height of the pyramid: ");
+    printf("\nWhat is the height of the pyramid: ");
     scanf("%d", &height);
 
     /* Getting the pyramid sequence in a matrix */
     int pyramid[height][height];
     for (int i = 0; i < height; ++i) {
         for (int j = 0; j <= i; ++j) {
-            printf("Number at row %d and column %d: ", (i + 1), (j + 1));
+            printf("\nNumber at row %d and column %d: ", (i + 1), (j + 1));
             scanf("%d", &pyramid[i][j]);
         }
     }

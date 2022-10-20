@@ -6,7 +6,7 @@ int columns, rows;
 int main() {
 
     /* Getting data */ 
-    printf("Enter the number of rows: ");
+    printf("\nEnter the number of rows: ");
     scanf("%d", &rows);
     printf("Enter the number of columns: ");
     scanf("%d", &columns);
@@ -27,6 +27,6 @@ int main() {
     }
 
     /* Printing the result */
-    printf("The different paths are: %d", square[--rows][--columns]);
+    printf("\nThe different paths are: %d", square[--rows][--columns]);
     return 0;
 }

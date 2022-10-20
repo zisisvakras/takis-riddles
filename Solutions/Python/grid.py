@@ -1,5 +1,5 @@
 # Getting necessary information
-rows = int(input("Enter the number of rows: "))
+rows = int(input("\nEnter the number of rows: "))
 columns = int(input("Enter the number of columns: "))
 # Initializing matrix with desired dimensions
 grid = [[0 for j in range(columns)] for i in range(rows)]
@@ -11,4 +11,4 @@ for i in range(rows):
         else:
             grid[i][j] = grid[i - 1][j] + grid[i][j - 1]
 # Printing last element of matrix
-print("The different paths are:", grid[-1][-1])
+print("\nThe different paths are:", grid[-1][-1])

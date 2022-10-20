@@ -5,7 +5,7 @@
 # goldlarge.jpg : 9 and 0.1.6.3.5.1.15.3.8.2.1.2.1.6.4.4.1.2.6.3.7.10.8.17.2.7.8.4.7.2.10.7.8.4.2.6.14.4.6.8.4.7.6.7.10
 
 # Getting data
-height = int(input("What is the height of the pyramid: "))
+height = int(input("\nWhat is the height of the pyramid: "))
 sequence = str(input("Input the pyramid sequence from top to bottom and left to right, seperated with dots: ")).split(".")
 
 # Initializing matrix with desired dimensions
