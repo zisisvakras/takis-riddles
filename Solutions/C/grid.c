@@ -6,9 +6,9 @@ int columns, rows;
 int main() {
 
     /* Getting data */ 
-    printf("Enter the number of rows:");
+    printf("Enter the number of rows: ");
     scanf("%d", &rows);
-    printf("Enter the number of columns:");
+    printf("Enter the number of columns: ");
     scanf("%d", &columns);
 
     /* Creating the matrix(grid) */

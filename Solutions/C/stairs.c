@@ -6,7 +6,7 @@ int stairs, temp;
 int main() {
 
     /* Getting data */ 
-    printf("Enter the number of stairs:");
+    printf("Enter the number of stairs: ");
     scanf("%d", &stairs);
 
     int a = 0;
