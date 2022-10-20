@@ -12,5 +12,5 @@ if frds % 2 == 1: # Odd friend case
     i = int((frds + 1) / 2 - 1)
     print(f"\nThe optimal location for the coffee shop is: ({c[i]},{r[i]})")
 else: # Even friend case
-    i = int(frds/2)
+    i = int(frds / 2)
     print(f"\nThe optimal locations for the coffee shop are: ({c[i - 1]}-{c[i]},{r[i - 1]}-{r[i]})")
