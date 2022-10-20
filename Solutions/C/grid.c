@@ -19,7 +19,8 @@ int main() {
         for (int j = 0; j < columns; ++j) {
             if (j == 0 || i == 0) {
                 square[i][j] = 1;
-            } else {
+            } 
+            else {
                 square[i][j] = square[i - 1][j] + square[i][j - 1];
             }
         }
