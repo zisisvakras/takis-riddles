@@ -1,7 +1,3 @@
-/* NOT YET READY */
-
-
-
 /*
 *   The inputs for the problem are:
 * 
@@ -59,28 +55,33 @@ int main() {
             col = i;
         }
     }
-    printf("best: %d at %d", best, col);
+
     /* Preparing answer */
-    /*har answer[] = "| with value: ";
-    strcat(answer, char(best));
-    printf("%s", answer);*/
+    char answer[height - 1][7];
+    for (int i = height - 1; i > 0; --i) {
+        if (col == 0) {
+            strcpy(answer[i - 1], "Left ");
+        }
+        else if (col == i) {
+            strcpy(answer[i - 1], "Right ");
+            col -= 1;
+        }
+        else {  
+            if (pyramid[i - 1][col - 1] < pyramid[i - 1][col]) {
+                strcpy(answer[i - 1], "Left ");
+            }
+            else {
+                strcpy(answer[i - 1], "Right ");
+                col -= 1;
+            }
+        }
+    }
+
+    /* Printing result */
+    printf("\nThe best path is: | ");
+    for (int i = 0; i < height - 1; ++i) {
+        printf("%s", answer[i]);
+    }
+    printf("| with value: %d", best);
     return 0;
 }
-/*
-# Preparing answer
-answer = "| with value: " + str(best)
-for i in range(height - 1, 0, -1):
-    if col == 0:
-        answer = "Left " + answer
-    elif col == i:
-        answer = "Right " + answer
-        col -= 1
-    else:
-        if pyramid[i - 1][col - 1] < pyramid[i - 1][col]:
-            answer = "Left " + answer
-        else:
-            answer = "Right " + answer
-            col -= 1
-
-# Printing the result
-print("\nThe best path is: |", answer)*/
