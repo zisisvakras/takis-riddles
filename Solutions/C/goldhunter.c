@@ -1,5 +1,5 @@
 /*
-*   The inputs for the problem are:
+*   The inputs for the problem are: (Be patient inputing takes time :D)
 * 
 *   gold.jpg : 5 and 0.1.6.3.5.1.15.3.8.2.1.2.2.6.4
 *
