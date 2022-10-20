@@ -2,15 +2,14 @@
 
 /* Data variables */
 int stairs, temp;
+int a = 0;
+int b = 1;
 
 int main() {
 
     /* Getting data */ 
     printf("Enter the number of stairs: ");
     scanf("%d", &stairs);
-
-    int a = 0;
-    int b = 1;
 
     /* Calculating N + 2 number of the fibonacci sequence */
     for (int i = 0; i < stairs; ++i) {

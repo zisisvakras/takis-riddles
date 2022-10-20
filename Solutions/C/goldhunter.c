@@ -10,6 +10,8 @@
 
 /* Data variables */
 int height;
+int best = 0;
+int col = 0;
 
 int main() {
 
@@ -47,8 +49,6 @@ int main() {
     }
 
     /* Finding highest value point */
-    int best = 0;
-    int col = 0;
     for (int i = 0; i < height; ++i) {
         if (best < pyramid[height - 1][i]) {
             best = pyramid[height - 1][i];
