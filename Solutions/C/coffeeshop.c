@@ -36,7 +36,7 @@ int main() {
 
     /* Executing solution and printing the result */
     if (frds % 2 == 1) {
-        int mid = (frds + 1) / 2 - 1;
+        int mid = (frds - 1) / 2;
         printf("\nThe optimal location for the coffee shop is: (%d,%d)", c[mid], r[mid]);
     }
     else {
