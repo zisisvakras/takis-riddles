@@ -2,8 +2,8 @@
 frds = int(input("\nNumber of friends in the grid: "))
 c, r = [], []
 for i in range(frds):
-    c.append(int(input("\nColumn of friend " + str(i + 1) + ": ")))
-    r.append(int(input("Row of friend " + str(i + 1) + ": ")))
+    c.append(int(input(f"\nColumn of friend {i + 1}: ")))
+    r.append(int(input(f"Row of friend {i + 1}: ")))
 c.sort()
 r.sort()
 
