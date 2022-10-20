@@ -13,7 +13,7 @@ int main() {
     scanf("%d", &columns);
 
     /* Creating the matrix(grid) */
-    uint64_t square[rows][columns];
+    int64_t square[rows][columns];
 
     /* Executing the algorithm described in solution */
     for (int i = 0; i < rows; ++i) {
@@ -28,6 +28,6 @@ int main() {
     }
 
     /* Printing the result */
-    printf("\nThe different paths are: %d", square[--rows][--columns]);
+    printf("\nThe different paths are: %llu", square[--rows][--columns]);
     return 0;
 }
