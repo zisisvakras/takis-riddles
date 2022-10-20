@@ -12,7 +12,7 @@ int main() {
     scanf("%d", &columns);
 
     /* Creating the matrix(grid) */
-    int square[rows][columns];
+    uint64_t square[rows][columns];
 
     /* Executing the algorithm described in solution */
     for (int i = 0; i < rows; ++i) {
