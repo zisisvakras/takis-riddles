@@ -9,10 +9,8 @@ r.sort()
 
 # Executing solution and printing the result
 if frds % 2 == 1: # Odd friend case
-    i = int((frds + 1)/2 - 1)
-    loc = "("+ str(c[i]) + "," + str(r[i]) + ")"
-    print("\nThe optimal location for the coffee shop is:", loc)
+    i = int((frds + 1) / 2 - 1)
+    print(f"\nThe optimal location for the coffee shop is: ({c[i]},{r[i]})")
 else: # Even friend case
     i = int(frds/2)
-    loc = "(" + str(c[i - 1]) + "-" + str(c[i]) + "," + str(r[i - 1]) + "-" + str(r[i]) + ")"
-    print("\nThe optimal locations for the coffee shop are:", loc)
+    print(f"\nThe optimal locations for the coffee shop are: ({c[i - 1]}-{c[i]},{r[i - 1]}-{r[i]})")

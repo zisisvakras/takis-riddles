@@ -23,7 +23,7 @@ int main() {
     int pyramid[height][height];
     for (int i = 0; i < height; ++i) {
         for (int j = 0; j <= i; ++j) {
-            printf("\nNumber at row %d and column %d: ", (i + 1), (j + 1));
+            printf("\nNumber at row %d and column %d: ", i + 1, j + 1);
             scanf("%d", &pyramid[i][j]);
         }
     }
