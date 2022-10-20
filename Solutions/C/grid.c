@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 /* Data variables */
 int columns, rows;
