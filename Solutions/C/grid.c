@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdint.h>
 
 /* Data variables */
 int columns, rows;
@@ -13,7 +12,7 @@ int main() {
     scanf("%d", &columns);
 
     /* Creating the matrix(grid) */
-    uint64_t square[rows][columns];
+    unsigned long long square[rows][columns];
 
     /* Executing the algorithm described in solution */
     for (int i = 0; i < rows; ++i) {
