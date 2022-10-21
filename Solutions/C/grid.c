@@ -1,3 +1,6 @@
+/*
+*   Any grid bigger than 34x34 will overflow
+*/
 #include <stdio.h>
 
 /* Data variables */
