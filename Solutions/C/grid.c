@@ -1,5 +1,6 @@
 /*
-*   Any grid bigger than 34x34 will overflow
+*   Any grid bigger than 34x34 will overflow,
+*   for bigger numbers use grid.py :)  
 */
 #include <stdio.h>
 
