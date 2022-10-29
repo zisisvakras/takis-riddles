@@ -1,7 +1,7 @@
 # takis-riddles
-Solutions of takis riddles using C, Python 
+Solutions of takis riddles using Rust, Python, C
 ## Problems
 Descriptions of the riddles and solutions in greek
 ## Solutions
-Python, C programs that implement the solutions
+Rust, Python, C programs that implement the solutions
 

@@ -1,6 +1,6 @@
 /*
 *   Any grid bigger than 34x34 will overflow,
-*   for bigger numbers use grid.py :)  
+*   for bigger numbers use Python or Rust :)  
 */
 #include <stdio.h>
 
